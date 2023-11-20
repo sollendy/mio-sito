@@ -19,6 +19,7 @@ export default {
     MainComponent,
     FooterComponent
   },
+  
   mounted() {
 
   }
@@ -27,7 +28,8 @@ export default {
 
 <template>
   <HeaderComponent/>
-  
+  <MainComponent/>
+
 </template>
 
 <style lang="scss" scoped>

@@ -1,6 +1,6 @@
 <template>
     <main>
-
+        <h1>AAAAAAAAAAAAAAAAAAAAA</h1>
     </main>
 </template>
   
@@ -24,4 +24,11 @@ export default {
 }
 </script>
   
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+    main {
+        padding-top: 5rem;
+        /*h1 {
+
+        }*/
+    }
+</style>
