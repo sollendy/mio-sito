@@ -1,6 +1,6 @@
 <template>
-    <footer>
-
+    <footer class="bg-secondary">
+        <h1>foooooooooooooooooooooooooooooooooooooooooooooooooooter</h1>
     </footer>
 </template>
   

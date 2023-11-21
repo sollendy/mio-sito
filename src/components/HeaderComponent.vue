@@ -1,7 +1,7 @@
 <template>
     <header>
-        <div class="nav-cont w-100 position-fixed">
-            <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="nav-cont w-100 position-sticky top-0">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid px-5">
                   <a class="navbar-brand text-light" href="#">Edoardo<br>Lannino</a>
                   <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,6 +58,7 @@ export default {
   
 <style lang="scss" scoped>
   header {
+    background-color: rgba(13, 47, 68, 1);
     .nav-cont {
       .container-fluid {
         .collapse {

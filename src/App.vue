@@ -29,7 +29,7 @@ export default {
 <template>
   <HeaderComponent/>
   <MainComponent/>
-
+  <FooterComponent/>
 </template>
 
 <style lang="scss" scoped>
