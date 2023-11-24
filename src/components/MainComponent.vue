@@ -1,10 +1,12 @@
 <template>
     <main class="text-light">
-        <h1>In questo punto ci sarà l'elemento di riferimento che l'utente cliccherà dal header.<br>Il punto di partenza sarà la pagina "chi sono".</h1>
+        <ChiComponent></ChiComponent>
+        <!-- <h1>In questo punto ci sarà l'elemento di riferimento che l'utente cliccherà dal header.<br>Il punto di partenza sarà la pagina "chi sono".</h1> -->
     </main>
 </template>
   
 <script>
+import ChiComponent from '../views/ChiComponent.vue';
 export default {
     name: 'MainComponent',
     data() {
@@ -16,7 +18,7 @@ export default {
 
     },
     components: {
-
+        ChiComponent
     },
     mounted() {
 

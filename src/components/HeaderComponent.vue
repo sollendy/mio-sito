@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header class="position-sticky top-0 shadow-lg">
         <div class="nav-cont w-100 position-sticky top-0">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid px-5">
